@@ -28,11 +28,9 @@ class School
  roster.each do |grade, student |
 #  roster is the hash grade is the key then we sort every value within that key
   roster[grade].sort
-  binding.pry
+ # binding.pry
   end 
  end
  
 #if it says #whatever in the terminal usally wants you to create instence method and if it says .whatever it wants you to creat a class method
- 
-
 end
