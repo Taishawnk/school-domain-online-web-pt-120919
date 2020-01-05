@@ -14,8 +14,9 @@ class School
   @grade = grade
   binding.pry
  if roster.include?(grade) ==false
-   roster[grade]= []
- 
+   roster[grade]= [] 
+ end
+ roster[grade]<< student
  end
  
 
