@@ -13,7 +13,8 @@ class School
   @student = student
   @grade = grade
   binding.pry
- if roster.include?(grade) =false
+ if roster.include?(grade) ==false
+   roster[grade]= []
  
  end
  
