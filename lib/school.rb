@@ -21,6 +21,7 @@ class School
  
  def grade(number)
    roster[number]
+   binding.pry
  end
  
  def sort
