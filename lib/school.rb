@@ -25,7 +25,9 @@ class School
  end
  
  def sort
- roster.sort
+ roster.each do |student, grade|
+  binding.pry
+  end 
  end
  
 #if it says #whatever in the terminal usally wants you to create instence method and if it says .whatever it wants you to creat a class method
