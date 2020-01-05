@@ -18,6 +18,7 @@ class School
  end
  roster[grade]<< student
  end
+ 
  def grade
    
  end
