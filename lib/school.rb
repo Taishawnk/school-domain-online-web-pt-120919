@@ -12,7 +12,7 @@ class School
  def add_student(student,grade)
   @student = student
   @grade = grade
-  binding.pry
+ # binding.pry
  if roster.include?(grade) ==false
    roster[grade]= [] 
  end
