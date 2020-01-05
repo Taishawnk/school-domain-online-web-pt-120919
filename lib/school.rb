@@ -13,7 +13,7 @@ class School
   @student = student
   @grade = grade
   binding.pry
- @roster[grade] << student
+ if roster.include?(grade) =false
  
  end
  
