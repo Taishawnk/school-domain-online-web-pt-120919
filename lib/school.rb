@@ -20,7 +20,7 @@ class School
  end
  
  def grade(number)
-   roster{grade}
+   roster(grade)
  end
  
  def sort
