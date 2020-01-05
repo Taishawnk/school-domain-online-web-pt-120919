@@ -13,9 +13,10 @@ class School
 @student = student
 @grade = grade
  @roster[grade] << student
+ binding.pry
  end
  
-binding.pry
+
  
 
 end
