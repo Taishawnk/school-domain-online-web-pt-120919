@@ -16,7 +16,7 @@ class School
  @roster[grade] << student
  end
  
-#binding.pry
+binding.pry
  
 
 end
