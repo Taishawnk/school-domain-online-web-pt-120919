@@ -28,9 +28,9 @@ class School
  roster.each do |grade, student |
 #  roster is the hash grade is the key then we sort every value within that key
 
-#roster[grade] is taking are roster digging in to each grade wich is our key for the hash then student.sort is sorting all the values in this case student names  to save our new sorted array
+#roster[grade] is taking are roster digging in to each grade wich is our key for the hash then student.sort is sorting all the values in this case student name and then saveing our new sorted array
+
   roster[grade] = student.sort
- # binding.pry
   end 
  end
  
