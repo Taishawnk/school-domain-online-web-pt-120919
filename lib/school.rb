@@ -27,7 +27,7 @@ class School
  def sort
  roster.each do |grade, student |
 #  roster is the hash grade is the key then we sort every value within that key
-  roster[grade].sort
+  roster[grade] = roster[grade].sort
  # binding.pry
   end 
  end
